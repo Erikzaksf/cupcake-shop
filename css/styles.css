@@ -1,1 +1,31 @@
+.gallery {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.gallery li {
+  float: left;
+  width: 33%;
+}
+.comment-image, .gallery li, .post-small .image, .post-image, .portfolio-item {
+  display: block;
+  position: relative;
+}
+.links {
+  text-align: center;
+  position: center;
 
+}
+.link-box {
+  text-align: center;
+  width: 190px;
+  margin: 10px 10px 10px 10px;
+  border:2px solid black;
+  border-width: 3px;
+  background-color: white;
+}
+.fancy {
+  background-image: url(../img/favorite.jpg);
+  background-attachment: fixed;
+  }
+}
