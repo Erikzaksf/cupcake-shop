@@ -27,5 +27,14 @@
 .fancy {
   background-image: url(../img/favorite.jpg);
   background-attachment: fixed;
-  }
+}
+.flashy {
+  color: red;
+  font-style: italic;
+  text-align: center;
+}
+.best {
+  color: purple;
+  font-weight: bold;
+  font-family: fantasy;
 }
